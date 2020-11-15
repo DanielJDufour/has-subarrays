@@ -4,7 +4,7 @@ const hasSubArrays = require("./has-subarrays");
 const nums = [1,2,3,4,5,6,7,8,9,10];
 
 test("has single sequence", t => {
-    const arr = Uint8Array.from(nums);
+    const arr = [...nums];
     const { result, threshold, tree } = hasSubArrays({
         data: arr,
         debug: false,
