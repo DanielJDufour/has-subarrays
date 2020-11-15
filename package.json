@@ -1,0 +1,26 @@
+{
+  "name": "has-subarrays",
+  "version": "0.0.0",
+  "description": "Quickly Determine if an Array contains Subarrays",
+  "main": "has-subarrays.js",
+  "scripts": {
+    "test": "npx ava --verbose *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/has-subarrays.git"
+  },
+  "keywords": [
+    "array",
+    "sequences",
+    "subarrays",
+    "subsequences",
+    "uint8array"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/has-subarrays/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/has-subarrays#readme"
+}
