@@ -4,6 +4,7 @@
   "description": "Quickly Determine if an Array contains Subarrays",
   "main": "has-subarrays.js",
   "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --trailing-comma=none --write *.js",
     "test": "npx ava --verbose *.js"
   },
   "repository": {
