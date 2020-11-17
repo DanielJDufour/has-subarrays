@@ -62,7 +62,7 @@ function hasSubArrays({
     }
   }
 
-  return { tree };
+  return { found: found.size, result: false, threshold, tree };
 }
 
 if (typeof module === "object") module.exports = hasSubArrays;

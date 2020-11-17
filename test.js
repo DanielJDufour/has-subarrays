@@ -53,3 +53,18 @@ test("has threshold set", t => {
   t.true(result);
   t.is(threshold, 2);
 });
+
+test("has nothing found", t => {
+  const arr = [...nums];
+  const { result, threshold, tree } = hasSubArrays({
+    data: arr,
+    debug: false,
+    subarrays: {
+      arr: [123],
+      two: [456]
+    }
+  });
+  t.deepEqual(tree, { 123: "arr", 456: "two" });
+  t.false(result);
+  t.is(threshold, 2);
+});
