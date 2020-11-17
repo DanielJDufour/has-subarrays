@@ -1,6 +1,6 @@
 {
   "name": "has-subarrays",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Quickly Determine if an Array contains Subarrays",
   "main": "has-subarrays.js",
   "scripts": {
